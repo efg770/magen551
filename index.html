@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>מגן 551 - קרן החוסן של חטיבת חצי האש</title>
     
-    <!-- Favicon -->
+    <!-- Favicon (האייקון הקטן בלשונית) -->
     <link rel="icon" type="image/png" href="images.png">
     
     <!-- Tailwind CSS -->
@@ -28,30 +28,30 @@
             </div>
             <div class="flex gap-6 text-sm font-semibold">
                 <a href="#vision" class="hover:text-red-500 transition">החזון</a>
-                <a href="#model" class="hover:text-red-500 transition underline decoration-red-500 decoration-2 underline-offset-4">המודל</a>
                 <a href="#impact" class="hover:text-red-500 transition">השפעה</a>
+                <a href="#community" class="hover:text-red-500 transition">מורשת</a>
             </div>
-            <a href="#donate" class="bg-red-600 hover:bg-red-700 px-5 py-2 rounded-full text-sm font-bold transition shadow-lg shadow-red-900/20">שותפות בקרן</a>
+            <a href="#donate" class="bg-red-600 hover:bg-red-700 px-5 py-2 rounded-full text-sm font-bold transition">שותפות בקרן</a>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <header class="hero-gradient min-h-[90vh] flex items-center justify-center text-white text-center px-6">
+    <header class="hero-gradient min-h-[85vh] flex items-center justify-center text-white text-center px-6">
         <div class="max-w-4xl">
-            <img src="images.png" alt="Logo 551" class="h-44 mx-auto mb-10 drop-shadow-[0_0_25px_rgba(255,255,255,0.2)]">
+            <!-- לוגו מרכזי -->
+            <img src="images.png" alt="Logo 551" class="h-40 mx-auto mb-10 drop-shadow-2xl">
             
             <h1 class="text-5xl md:text-7xl font-black mb-6 leading-tight">
-                מפסיקים לתרום. <br><span class="text-red-500 font-extrabold">מתחילים להשקיע.</span>
+                מפסיקים לתרום.<br><span class="text-red-500 font-extrabold">מתחילים להשקיע.</span>
             </h1>
             <p class="text-xl md:text-2xl font-light text-slate-300 mb-12 max-w-2xl mx-auto italic">
-                עוברים מתרומות מזדמנות לתשתית כלכלית איתנה לרווחת לוחמי המילואים של חטיבה 551.
+                מבטיחים את חוסן לוחמי המילואים, משפחות השכול והמורשת החטיבתית – לתמיד.
             </p>
 
-            <!-- Stats Grid -->
-            <div id="model" class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div class="stats-card p-8 rounded-2xl">
                     <div class="text-4xl font-black text-white mb-2">$2,000,000</div>
-                    <div class="text-slate-400 text-sm font-bold uppercase tracking-widest">הון היסוד (הקרן)</div>
+                    <div class="text-slate-400 text-sm font-bold uppercase tracking-widest">הון היסוד</div>
                 </div>
                 <div class="stats-card p-8 rounded-2xl border-b-4 border-red-600">
                     <div class="text-4xl font-black text-red-500 mb-2">5%</div>
@@ -59,97 +59,103 @@
                 </div>
                 <div class="stats-card p-8 rounded-2xl">
                     <div class="text-4xl font-black text-white mb-2">$100,000</div>
-                    <div class="text-slate-400 text-sm font-bold uppercase tracking-widest">תקציב רווחה קבוע</div>
+                    <div class="text-slate-400 text-sm font-bold uppercase tracking-widest">תקציב פעילות קבוע</div>
                 </div>
             </div>
         </div>
     </header>
 
-    <!-- Vision Section - THE SHIFT -->
-    <section id="vision" class="py-24 bg-white">
-        <div class="container mx-auto px-6 max-w-5xl">
-            <div class="flex flex-col md:flex-row gap-16 items-center">
-                <div class="md:w-1/2">
-                    <h2 class="text-4xl font-black text-slate-900 mb-6 uppercase border-r-8 border-red-600 pr-6">השינוי התפיסתי</h2>
-                    <p class="text-xl text-slate-600 mb-6 leading-relaxed">
-                        בכל מלחמה, הציבור מתגייס בתרומות של מזון וציוד. אלו תרומות <strong>מתכלות</strong>. כשהמשבר מסתיים והמצלמות כבות – התקציב נעלם.
-                    </p>
-                    <p class="text-xl text-slate-800 font-bold mb-6 italic">
-                        קרן 551 משנה את המשוואה.
-                    </p>
-                    <p class="text-lg text-slate-600">
-                        אנחנו מגייסים הון יסוד שמושקע באפיקים יציבים. הריבית שנוצרת משמשת כתקציב עבודה קבוע לרווחת החיילים, מה שמאפשר לנו לתכנן קדימה ולדאוג ללוחם ולמשפחתו גם בשגרה.
-                    </p>
-                </div>
-                <div class="md:w-1/2 grid grid-cols-1 gap-4">
-                    <div class="bg-slate-50 p-6 rounded-xl border-r-4 border-slate-300 shadow-sm">
-                        <span class="text-red-600 font-black block mb-1">המודל הישן</span>
-                        <span class="text-slate-600 italic leading-snug">תלות במומנטום של מלחמה, תרומות חד-פעמיות, חוסר ודאות תקציבי.</span>
-                    </div>
-                    <div class="bg-red-50 p-6 rounded-xl border-r-4 border-red-600 shadow-md">
-                        <span class="text-red-600 font-black block mb-1 uppercase">המודל החדש (הקרן)</span>
-                        <span class="text-slate-800 font-bold italic">עצמאות כלכלית, תקציב שנתי ידוע מראש, שקט נפשי ללוחמים לנצח.</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Impact Section - THE $100K BREAKDOWN -->
-    <section id="impact" class="py-24 bg-slate-900 text-white overflow-hidden">
-        <div class="container mx-auto px-6">
-            <h2 class="text-center text-4xl font-black mb-6">לאן הולכת התשואה?</h2>
-            <p class="text-center text-red-500 font-bold mb-16 tracking-widest uppercase">$100,000 שמוקדשים מדי שנה להון האנושי</p>
+    <!-- Impact Section -->
+    <section id="impact" class="py-24 bg-white">
+        <div class="container mx-auto px-6 max-w-6xl">
+            <h2 class="text-4xl font-black text-center mb-16 uppercase italic underline decoration-red-600 decoration-4 underline-offset-8">משימות הליבה של הקרן</h2>
             
-            <div class="grid md:grid-cols-3 gap-10">
-                <div class="impact-card p-10 rounded-3xl relative group">
-                    <div class="text-5xl mb-6">🧠</div>
-                    <h3 class="text-2xl font-bold mb-4 text-red-500">חוסן מנטלי ועיבוד</h3>
-                    <p class="text-slate-400 leading-relaxed">
-                        סדנאות עיבוד לחימה מקצועיות לאחר שירות ממושך, ליווי מניעתי וימי הפוגה יחידתיים לשמירה על בריאות הנפש.
-                    </p>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- חוסן מנטלי -->
+                <div class="bg-gray-50 p-8 rounded-2xl border-t-4 border-slate-900 shadow-sm hover:shadow-md transition">
+                    <div class="text-4xl mb-4">🧠</div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-800">חוסן הלוחמים</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">סדנאות עיבוד לחימה, ליווי פוסט-טראומה מניעתי וימי הפוגה יחידתיים לשמירה על כשירות נפשית לאורך שנים.</p>
                 </div>
-                <div class="impact-card p-10 rounded-3xl relative group">
-                    <div class="text-5xl mb-6">🛡️</div>
-                    <h3 class="text-2xl font-bold mb-4 text-red-500">מעטפת הבית והעורף</h3>
-                    <p class="text-slate-400 leading-relaxed">
-                        תמיכה במשפחות הלוחמים בזמן המילואים: קרן סיוע מהירה לתיקונים דחופים, בייביסיטר, ועזרה לוגיסטית לנשות המילואימניקים.
-                    </p>
+
+                <!-- משפחות ויתומים -->
+                <div class="bg-gray-50 p-8 rounded-2xl border-t-4 border-red-600 shadow-sm hover:shadow-md transition">
+                    <div class="text-4xl mb-4">❤️</div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-800">מעטפת למשפחה</h3>
+                    <p class="text-red-600 text-sm leading-relaxed uppercase font-bold mb-1">קייטנות ליתומי היחידה,</p>
+                    <p class="text-slate-600 text-sm leading-relaxed">ליווי משפחות המילואים בשגרה ובחירום, וקרן סיוע מהירה לנשות המילואימניקים.</p>
                 </div>
-                <div class="impact-card p-10 rounded-3xl relative group">
-                    <div class="text-5xl mb-6">🎓</div>
-                    <h3 class="text-2xl font-bold mb-4 text-red-500">מלגות וקהילה</h3>
-                    <p class="text-slate-400 leading-relaxed">
-                        עזרה ללוחמים שפרנסתם או לימודיהם נפגעו בשל השירות, שימור מורשת החטיבה וחיזוק הקשר הבין-דורי.
-                    </p>
+
+                <!-- מורשת והנצחה -->
+                <div class="bg-gray-50 p-8 rounded-2xl border-t-4 border-slate-900 shadow-sm hover:shadow-md transition">
+                    <div class="text-4xl mb-4">🕯️</div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-800">מורשת והנצחה</h3>
+                    <p class="text-slate-800 text-sm leading-relaxed uppercase font-bold mb-1">ערבי מורשת, ימי זיכרון</p>
+                    <p class="text-slate-600 text-sm leading-relaxed">ופעולות להנצחת נופלי החטיבה ושימור הקשר הבין-דורי בין הלוחמים.</p>
+                </div>
+
+                <!-- מלגות -->
+                <div class="bg-gray-50 p-8 rounded-2xl border-t-4 border-red-600 shadow-sm hover:shadow-md transition">
+                    <div class="text-4xl mb-4">🎓</div>
+                    <h3 class="text-xl font-bold mb-3 text-slate-800">צמיחה אישית</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed font-bold">מלגות לימודים,</p>
+                    <p class="text-slate-600 text-sm leading-relaxed">סיוע ללוחמים סטודנטים והכשרות מקצועיות למי שפרנסתו נפגעה בשל שירות המילואים.</p>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Founders Circle CTA -->
+    <!-- Routine Section -->
+    <section id="community" class="py-20 bg-slate-900 text-white overflow-hidden">
+        <div class="container mx-auto px-6 max-w-5xl text-center md:text-right">
+            <div class="flex flex-col md:flex-row items-center gap-12">
+                <div class="md:w-1/2">
+                    <h2 class="text-4xl font-black mb-6 uppercase tracking-tighter italic">מעטפת שלמה, <span class="text-red-500 underline">בכל יום בשנה</span></h2>
+                    <p class="text-xl text-slate-400 mb-8 leading-relaxed font-light">
+                        היתרון של קרן קבועה הוא היכולת לקיים פעילות שוטפת. לא רק כשהתותחים רועמים, אלא כחלק מתרבות היחידה:
+                    </p>
+                    <ul class="space-y-4 text-lg font-medium text-slate-200">
+                        <li class="flex items-center gap-3">
+                            <span class="text-red-500 text-2xl">✔</span> ערבי יחידה ומפגשי מורשת קבועים
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="text-red-500 text-2xl">✔</span> ליווי צמוד למשפחות השכול והיתומים
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <span class="text-red-500 text-2xl">✔</span> פעילויות הפוגה לילדי הלוחמים בשגרה
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2 flex justify-center">
+                    <div class="relative">
+                        <div class="absolute -inset-4 bg-red-600/20 blur-xl rounded-full"></div>
+                        <img src="images.png" alt="Community Heritage" class="relative z-10 w-64 opacity-80 grayscale hover:grayscale-0 transition duration-1000">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
     <section id="donate" class="py-32 bg-gray-100 text-center">
         <div class="container mx-auto px-6 max-w-3xl">
-            <span class="text-red-600 font-bold tracking-widest uppercase block mb-4">The Founders Circle</span>
-            <h2 class="text-5xl font-black mb-8">היו ממייסדי הקרן</h2>
+            <h2 class="text-5xl font-black mb-8">נשאר רק הגיוס. 💪🏽🇮🇱</h2>
             <p class="text-xl text-slate-600 mb-12 leading-relaxed">
-                אנחנו מחפשים שותפים שרוצים להשקיע בחוסן הארוך של לוחמי 551. התרומה שלך היא לא הוצאה – היא "הון יסוד" שימשיך לעבוד ולתת פירות ללוחמים שלנו בכל שנה מחדש.
+                אנחנו בונים את ה"מגן" של אלו שמגנים עלינו. הצטרפו ל"נבחרת המייסדים" של קרן 551 והבטיחו שהרוח של החטיבה תמשיך לנצח, בשדה הקרב וגם בבית.
             </p>
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
                 <a href="mailto:contact@551fund.org" class="bg-slate-900 text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-slate-800 transition shadow-xl">צרו קשר לפרטים נוספים</a>
-                <a href="#" class="bg-red-600 text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-red-700 transition shadow-xl">היו שותפים (מסלול דולרי)</a>
+                <a href="#" class="bg-red-600 text-white px-10 py-4 rounded-full text-lg font-bold hover:bg-red-700 transition shadow-xl uppercase italic tracking-wider">היו שותפים בקרן</a>
             </div>
-            <p class="mt-10 text-sm text-slate-400 font-medium italic">
-                התרומות מוכרות לצרכי מס בארץ ובארה"ב (סעיף 46 / 501c3)
-            </p>
+            <p class="mt-10 text-sm text-slate-400 font-medium italic">התרומות מוכרות לצרכי מס (סעיף 46 / 501c3)</p>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="bg-slate-950 text-slate-500 py-16 text-center border-t border-white/5">
-        <img src="images.png" alt="Footer Logo" class="h-20 mx-auto mb-8 opacity-30 grayscale hover:opacity-100 transition duration-500">
+        <img src="images.png" alt="Footer Logo" class="h-20 mx-auto mb-8 opacity-30 grayscale hover:opacity-100 transition duration-700">
         <p class="font-bold tracking-widest uppercase text-slate-300">חטיבה 551 - עוצבת חצי האש</p>
-        <p class="text-sm mt-2 font-light italic">קרן החוסן - מודל פילנתרופי בר-קיימא לדורות</p>
+        <p class="text-xs mt-2 uppercase tracking-tighter italic">קרן החוסן - חזון של יציבות והמשכיות</p>
         <div class="mt-10 text-[10px] opacity-40">
             &copy; 2024 כל הזכויות שמורות ליחידה ולמערך המילואים
         </div>
