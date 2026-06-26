@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>קרן 551 - חוסן לדורות</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;700;800&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Assistant', sans-serif; }
+        .hero-bg {
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                        url('https://images.unsplash.com/photo-1590254397750-937299351e89?q=80&w=2070&auto=format&fit=crop'); /* כאן אפשר לשים תמונה של החטיבה */
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Header -->
+    <nav class="bg-slate-900 text-white p-4 sticky top-0 z-50 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center px-6">
+            <div class="text-2xl font-bold tracking-tighter">חטיבה 551 | <span class="text-red-500">קרן החוסן</span></div>
+            <div class="hidden md:block">
+                <a href="#vision" class="px-4 hover:text-red-400">החזון</a>
+                <a href="#model" class="px-4 hover:text-red-400">המודל הפיננסי</a>
+                <a href="#impact" class="px-4 hover:text-red-400">לאן הכסף הולך</a>
+            </div>
+            <a href="#donate" class="bg-red-600 hover:bg-red-700 text-white font-bold py-2 px-6 rounded-full transition duration-300">היה שותף</a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-bg h-[80vh] flex items-center justify-center text-center text-white px-4">
+        <div class="max-w-4xl">
+            <h1 class="text-5xl md:text-7xl font-extrabold mb-6">מפסיקים לתרום, מתחילים להשקיע.</h1>
+            <p class="text-xl md:text-2xl mb-8 font-light">מעבר מתרומות "מתכלות" לתקציב רווחה קבוע ושנתי עבור לוחמי המילואים של חטיבה 551.</p>
+            <div class="flex flex-col md:flex-row justify-center gap-4">
+                <div class="bg-white/10 backdrop-blur-md p-6 rounded-lg border border-white/20">
+                    <span class="block text-3xl font-bold">$2,000,000</span>
+                    <span class="text-sm uppercase">יעד הקרן</span>
+                </div>
+                <div class="bg-white/10 backdrop-blur-md p-6 rounded-lg border border-white/20">
+                    <span class="block text-3xl font-bold">5%</span>
+                    <span class="text-sm uppercase">תשואה שנתית</span>
+                </div>
+                <div class="bg-white/10 backdrop-blur-md p-6 rounded-lg border border-white/20">
+                    <span class="block text-3xl font-bold">$100,000</span>
+                    <span class="text-sm uppercase">תקציב רווחה שנתי</span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- The Vision Section -->
+    <section id="vision" class="py-20 container mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center gap-12">
+            <div class="md:w-1/2">
+                <h2 class="text-4xl font-bold mb-6 text-slate-800">החזון: חוסן ללא תלות</h2>
+                <p class="text-lg leading-relaxed mb-4 text-gray-600">
+                    בזמן חירום, עם ישראל מתגייס. פיצות, גרביים וציוד טקטי נשלחים לחזית. אבל מה קורה בשגרה? מה קורה כשהמצלמות כבות? 
+                </p>
+                <p class="text-lg leading-relaxed text-gray-600 font-bold">
+                    אנחנו מקימים קרן צמיתה (Endowment Fund). הכסף שייתרם לא יבוזבז על מוצרים חד-פעמיים, אלא יושקע ויניב פירות שישמשו את רווחת הלוחמים בכל שנה מחדש.
+                </p>
+            </div>
+            <div class="md:w-1/2 bg-slate-100 p-8 rounded-2xl shadow-inner border-r-4 border-red-600">
+                <h3 class="text-2xl font-bold mb-4">השינוי התפיסתי:</h3>
+                <ul class="space-y-4">
+                    <li class="flex items-start gap-3">
+                        <span class="bg-red-100 text-red-600 p-1 rounded-full text-xs">✕</span>
+                        <span><strong>במקום:</strong> גיוס תרומות מזדמן בכל משבר.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="bg-green-100 text-green-600 p-1 rounded-full text-xs">✓</span>
+                        <span><strong>מעכשיו:</strong> תקציב רווחה שנתי קבוע וידוע מראש.</span>
+                    </li>
+                    <li class="flex items-start gap-3">
+                        <span class="bg-green-100 text-green-600 p-1 rounded-full text-xs">✓</span>
+                        <span><strong>המשכיות:</strong> הקרן קיימת לנצח, הריבית דואגת לחיילים.</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Impact Section -->
+    <section id="impact" class="bg-slate-900 py-20 text-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold mb-12 text-center underline decoration-red-600 decoration-4 underline-offset-8">השקעה בהון האנושי ($100k לשנה)</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-slate-800 p-8 rounded-xl hover:translate-y-[-10px] transition duration-300">
+                    <div class="text-4xl mb-4 text-red-500">🛡️</div>
+                    <h3 class="text-2xl font-bold mb-3">מעטפת למשפחה</h3>
+                    <p class="text-slate-400">סיוע דחוף למשפחות הלוחמים בזמן תעסוקה מבצעית, עזרה בבית ותמיכה כלכלית בעורף.</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-xl hover:translate-y-[-10px] transition duration-300">
+                    <div class="text-4xl mb-4 text-red-500">🧠</div>
+                    <h3 class="text-2xl font-bold mb-3">חוסן מנטלי</h3>
+                    <p class="text-slate-400">סדנאות עיבוד לחימה, ליווי מקצועי לאחר שירות ממושך וימי הפוגה יחידתיים.</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-xl hover:translate-y-[-10px] transition duration-300">
+                    <div class="text-4xl mb-4 text-red-500">🎓</div>
+                    <h3 class="text-2xl font-bold mb-3">מלגות וקהילה</h3>
+                    <p class="text-slate-400">תמיכה בלוחמים סטודנטים, שימור המורשת וחיזוק הקשר בין לוחמי החטיבה לדורותיהם.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action -->
+    <section id="donate" class="py-20 text-center">
+        <div class="container mx-auto px-6 max-w-2xl">
+            <h2 class="text-4xl font-bold mb-6">היו ממייסדי הקרן</h2>
+            <p class="text-xl text-gray-600 mb-10">אנחנו מחפשים שותפים לדרך להקמת הון היסוד של $2,000,000. הצטרפו ל"נבחרת המייסדים" והבטיחו את רווחת לוחמי 551 לדורות קדימה.</p>
+            <div class="bg-white p-8 rounded-2xl shadow-2xl border border-gray-100">
+                <p class="text-sm text-gray-500 mb-2 italic">התרומות מוכרות לצרכי מס (סעיף 46 / 501c3)</p>
+                <button class="bg-red-600 text-white text-2xl font-bold py-4 px-12 rounded-full hover:bg-red-700 transition duration-300 w-full md:w-auto">
+                    צרו קשר להשקעה בקרן
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-500 py-10 text-center border-t border-slate-800">
+        <p>© 2024 חטיבה 551 - עוצבת חצי האש | קרן הרווחה</p>
+    </footer>
+
+</body>
+</html>
